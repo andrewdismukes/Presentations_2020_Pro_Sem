@@ -1,6 +1,6 @@
 ---
 title: "Early Life Adversity and the Development of the Stress Response System"
-subtitle: "SRCD 2019"
+subtitle: ' `r fontawesome::fa("twitter", fill = "steelblue")` @adismuke'
 author: "Andrew Dismukes"
 affiliation: "The Pennsylvania State University"
 date: "`r Sys.Date()`"
