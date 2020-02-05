@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1580320462030.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1628351443",
+    "id" : "41ADE343",
+    "lastKnownWriteTime" : 1580322536,
+    "last_content_update" : 1580322536593,
+    "path" : "~/Tresors/Presentations/Presentations_2020_PROSEM/ProSem_2020.Rmd",
+    "project_path" : "ProSem_2020.Rmd",
+    "properties" : {
+        "cursorPosition" : "48,35",
+        "scrollLine" : "39",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
