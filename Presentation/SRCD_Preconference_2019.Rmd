@@ -398,7 +398,7 @@ library(reshape2)
 library(ggplot2)
 library(wesanderson)
 library(ggthemes)
-x1<-read_csv("/home/andrewdismukes/SpiderOak Hive/Analysis/Analysis_IDS_2016_Longitudinal_Cortisol_Race/IDS_Longitudinal_Cortisol_Analyses/Databases_IDS/IDSLongitudinal/IDS_Cortisol_3_15_17.csv")
+x1<-read_csv("C:\Users\andre\My Tresors\Analysis\Analysis_IDS_2016_Longitudinal_Cortisol_Race\IDS_Longitudinal_Cortisol_Analyses\Databases_IDS\IDSLongitudinal\IDS_Cortisol_3_15_17.csv")
 
 #rename the cort variables                                       
 x1$Cort1<-x1$cortisol_conc1_4
