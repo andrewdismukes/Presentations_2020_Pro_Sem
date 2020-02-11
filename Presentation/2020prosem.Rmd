@@ -1,6 +1,6 @@
 ---
 title: "Early Life Adversity and the Development of the Stress Response System"
-subtitle: ' `r fontawesome::fa("twitter", fill = "steelblue")` @adismuke // Slides available at https://andrewdismukes.github.io/Presentations_2020_Pro_Sem/Presentation/2020prosem.html'
+subtitle: 'Developmental Proseminar | `r fontawesome::fa("twitter", fill = "steelblue")` @adismuke' 
 author: "Andrew Dismukes"
 affiliation: "The Pennsylvania State University"
 date: "`r Sys.Date()`"
@@ -20,12 +20,28 @@ editor_options:
 options(htmltools.dir.version = FALSE)
 ```
 
+Slides available on github as markdown and as a webpage at: 
+Markdown: https://github.com/andrewdismukes/Presentations_2020_Pro_Sem
+HTML: https://andrewdismukes.github.io/Presentations_2020_Pro_Sem/Presentation/2020prosem.html
+<!---------Introduction to me-------->
+---
+class: center
+.bottom[
+```{r echo = FALSE, out.width = "600px"}
+knitr::include_graphics("images/dev-landscape.jpg")
+```
+]
+???
+Working on epigenetics handbook chapter
+background reading on Waddington
+
+meta-metaphor
 <!---------Introduction to topic-------->
 ---
 class: center
 # Background & Introduction
 ## Theme:
-"Research on *life history strategy* and the evolutionary importance of *unpredictable and adverse early environments* on *development*."
+"Research on the importance of *unpredictable and adverse early environments* on *Stress Response System* and development."
 
 .bottom[
 ```{r echo = FALSE, out.width = "600px"}
@@ -43,7 +59,7 @@ knitr::include_graphics("images/Figure1.png")
 - Theme is "Research on *life history strategy* and the evolutionary importance of *unpredictable and adverse early environments* on *development*."
 - Some Notes:
   - Talking about a particular research theme that has run through my training *skip*  
-  - Using SRS to represent Life History Theory
+  - Focusing on the SRS as a mechanism 
 
 <!-------------------------------->
 
@@ -926,9 +942,9 @@ DFL %>%
       theme(legend.text = element_text(size=12 
                                      ))
 ```
-]
 <!--------------------------->
 <!---------Conclusions-------->
+
 ---
 # Conclusions
 .pull-left[
@@ -940,29 +956,38 @@ DFL %>%
 ]
 <!---------END-------->
 ---
+# Future Directions
+
+```{r echo = FALSE}
+knitr::include_graphics("images/EGDS.png")
+```
+---
+# Behavioral Genetics as a natural extension of this research
+
+
+---
 
 # Thanks!
 
-Slides available at: 
-.font60[
-https://andrewdismukes.github.io/Presentations_2019_SRCD_EvoDevoPreconference/SRCD_Preconference_2019.html
-]
 .pull-left[
 ## Special thanks to
- - Elizabeth Shirtcliff & SPIT Lab at Iowa State
- - Stacy Drury & Behavioral and Neurodevelopmental Genetics Lab at Tulane
  - Jenae Neiderhiser and Gene Environment Interplay Lab at Penn State
+ - Elizabeth Shirtcliff & SPIT Lab at Iowa State
+ - Stacy Drury & Behavioral and Neurodevelopmental Genetics Lab at Tulane University
+
 ]
 .pull-right[
+
+```{r echo = FALSE, out.width = "60%"}
+knitr::include_graphics("images/GxE lab.png")
+```
 ```{r echo = FALSE, out.width = "60%"}
 knitr::include_graphics("images/spit-lab.jpg")
 ```
 ```{r echo = FALSE, out.width = "60%"}
 knitr::include_graphics("images/BANGL.png")
 ```
-```{r echo = FALSE, out.width = "60%"}
-knitr::include_graphics("images/GxE lab.png")
-```
+
 ]
 Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
 
